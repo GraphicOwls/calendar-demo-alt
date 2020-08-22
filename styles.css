@@ -7,14 +7,13 @@
   --date-main-text: white;
   --date-secondary-text: #dadada;
   --date-tertiary-text: ;
-  
   /* Sizing */
-  --4px: 4px;
-  --8px: 8px;
-  --12px: 12px;
-  --16px: 16px;
-  --24px: 24px;
-  --28px: 28px;
+  --sp-4: 4px;
+  --sp-8: 8px;
+  --sp-12: 12px;
+  --sp-16: 16px;
+  --sp-24: 24px;
+  --sp-28: 28px;
   --cell-size: 32px;
 }
 
@@ -35,7 +34,7 @@ body {
 
 .ui-widget.ui-widget-content {
   border: none;
-  box-shadow: 0 5px 15px -5px rgba(0,0,0,.5);
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, .5);
 }
 
 .ui-datepicker table {
@@ -46,33 +45,32 @@ body {
 }
 
 .ui-datepicker-header {
-    background: none;
-    color: #ffffff;
-    border: none;
-    padding: var(--16px);
-    border-bottom: 1px solid #27292d;
-    border-radius: 0px;
+  background: none;
+  color: #ffffff;
+  border: none;
+  padding: var(--sp-16);
+  border-bottom: 1px solid #27292d;
+  border-radius: 0px;
 }
 
 .ui-datepicker-title {
-    text-align: center;
-
+  text-align: center;
 }
 
 .ui-datepicker-prev {
-    float: left;
-    cursor: pointer;
-    background-position: center -30px;
-    font-size: 12px;
-    color: #c1c9d2;
+  float: left;
+  cursor: pointer;
+  background-position: center -30px;
+  font-size: 12px;
+  color: #c1c9d2;
 }
 
 .ui-datepicker-next {
-    float: right;
-    cursor: pointer;
-    background-position: center 0px;
-    font-size: 12px;
-    color: #c1c9d2;
+  float: right;
+  cursor: pointer;
+  background-position: center 0px;
+  font-size: 12px;
+  color: #c1c9d2;
 }
 
 .ui-datepicker thead {
@@ -146,6 +144,7 @@ body {
   color: #999999;
   opacity: 0.3;
 }
+
 /*
 .ui-widget-header .ui-icon {
   background-image: url(https://uploads-ssl.webflow.com/5f3cd5bd29840f5281cd833c/5f3cd5bd29840f36cacd8345_chevron-right-purple.svg);
@@ -166,14 +165,15 @@ body {
 }
 
 /*Time Slider Handles*/
+
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
-    border: none;
-    background: #7262e6;
-    font-weight: normal;
-    color: #ffffff;
+  border: none;
+  background: #7262e6;
+  font-weight: normal;
+  color: #ffffff;
 }
 
 .ui-widget-content {
-    border: 1px solid;
-    color: inherit;
+  border: 1px solid;
+  color: inherit;
 }
