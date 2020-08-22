@@ -1,3 +1,22 @@
+:root {
+  /* Colors */
+  --date-primary: #27292d;
+  --date-secondary: ;
+  --date-tertiary: ;
+  --date-disabled: ;
+  --date-main-text: white;
+  --date-secondary-text: #dadada;
+  --date-tertiary-text: ;
+  /* Sizing */
+  --sp-4: 4px;
+  --sp-8: 8px;
+  --sp-12: 12px;
+  --sp-16: 16px;
+  --sp-24: 24px;
+  --sp-28: 28px;
+  --cell-size: 32px;
+}
+
 .ui-datepicker {
   width: auto;
   height: auto;
@@ -83,7 +102,8 @@
   text-decoration: none;
 }
 
-.ui-datepicker td span, .ui-datepicker td a {
+.ui-datepicker td span,
+.ui-datepicker td a {
   display: inline-block;
   text-align: center;
   width: var(--cell-size);
@@ -130,7 +150,8 @@
   width: 30px;
 }*/
 
-.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
   position: absolute;
   top: 0px;
   width: 30px;
@@ -143,7 +164,12 @@
 
 /*Time Slider Handles*/
 
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active {
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-button,
+html .ui-button.ui-state-disabled:hover,
+html .ui-button.ui-state-disabled:active {
   border: none;
   background: #7262e6;
   font-weight: normal;
